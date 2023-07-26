@@ -5,7 +5,7 @@ This repository contains the backend implementation of the Stocking Goods Limite
 Features
 The backend implementation includes the following features:
 
-Authentication: User login, logout, change password, and reset password functionalities are implemented using Spring Security. JWT (JSON Web Token) is used for token-based authentication with a token timeout set to 10 minutes before renewal.
+Authentication: User login functionality is implemented using Spring Security. JWT (JSON Web Token) is used for token-based authentication with a token timeout set to 10 minutes before renewal.
 
 Data Upload and Visualization: The API server supports uploading the Manufacturer data file (JSON) and provides visualization of the data.
 
